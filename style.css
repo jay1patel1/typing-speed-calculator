@@ -1,0 +1,134 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* Layout */
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Colors */
+
+body {
+    color: #333;
+}
+
+a {
+    color: #009;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F9DEC9;
+}
+
+#outerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #F78CA2;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+#buttons, #titleBox, #colorPallet {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #F0DEE2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#colorPallet {
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+#titleBox {
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3D0C11;
+    justify-content: center;
+    text-align: center;
+}
+
+#start, #stop {
+    margin: 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.button-14 {
+    background-image: linear-gradient(#f7f8fa, #e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .6) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    height: 29px;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 11px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.button-14:active {
+    border-bottom-color: #a2a6ac;
+}
+
+.button-14:active:hover {
+    border-bottom-color: #a2a6ac;
+}
+
+.button-14:hover {
+    border-color: #a2a6ac #979aa1 #82858a;
+}
+
+.button-14:focus {
+    border-color: #e77600;
+    box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+    outline: 0;
+}
